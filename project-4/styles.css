@@ -23,12 +23,8 @@ body {
     font-size: 20px;
 }
 
-.pt-41 {
-    padding-top: 41px;
-}
-
-.pt-23 {
-    padding-top: 23px;
+.pt-21 {
+    padding-top: 21px;
 }
 
 .header {
@@ -46,7 +42,7 @@ body {
 }
 
 .p-33 {
-    padding: 33px 0px 0px 33px;
+    padding: 33px 0px 33px 33px;
 }
 
 .pl-20 {
@@ -62,9 +58,10 @@ body {
     border-radius: 30px;
     border: 5px solid #E5E000;
     width: 400px;
-    height: 800px;
+    height: max-content; /*нужен для точго чтобы бокс увеличивался с увеличением контента*/
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .mr-50 {
