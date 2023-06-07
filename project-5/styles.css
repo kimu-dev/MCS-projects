@@ -50,7 +50,6 @@
 body {
     font-family: 'Arial';
     font-size: 50px;
-    color: #E50043;
 }
 
 .header {
@@ -61,7 +60,10 @@ body {
     align-items: center;
     justify-content: space-between;
     padding-left: 50px;
-    position: fixed;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    color: #E50043;
 }
 
 .menu > li {
@@ -88,6 +90,7 @@ body {
     position: absolute;
     top: 560px;
     font-size: 100px;
+    color: #E50043;
 }
 
 .square {
