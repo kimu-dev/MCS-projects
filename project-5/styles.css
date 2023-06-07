@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1440px;
+}
+
+.pt-28 {
+    padding-top: 28.75px;
+}
+
+.p-50 {
+    padding: 50px 0px 50px 50px;
+}
+
+.pl-24 {
+    padding-left: 24px;
+}
+
+.prb-24 {
+    padding-bottom: 24px;
+    padding-right: 24px;
+}
+
+.pt-24 {
+    padding-top: 24px;
+}
+
+
+.pr-100 {
+    padding-right: 100px;
+}
+
+.pt-42 {
+    padding-top: 42px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+body {
+    font-family: 'Arial';
+    font-size: 50px;
+    color: #E50043;
+}
+
+.header {
+    background-color: #FFFFFF;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    position: fixed;
+}
+
+.menu > li {
+    margin-right: 25px;
+    display: inline;
+  }
+
+.menu > li:last-of-type {
+    margin-right: 50px;
+}
+
+.menu > li > a, a.visited, a:hover, a:active {
+    color: #E50043;
+}
+
+.hero-photo {
+    background-image: url(images/evian_origins_logo.jpg);
+    background-size: auto contain;
+}
+
+.hero-text {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 560px;
+    font-size: 100px;
+}
+
+.square {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    border-radius: 20px;
+    border: 3px solid #F8BFC7;
+    width: 1040px;
+    height: max-content; 
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    color: #000000;
+}
+
+.bottle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    color: #000000;
+}
+
+.bottles {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-text {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 30px 30px 80px;
+    gap: 80px;
+}
+
+.text-flex {
+    display: flex;
+    flex-direction: column;  
+    gap: 28.75px;
+}
+
+.footer {
+    background-color: #F8BFC7;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
