@@ -11,6 +11,7 @@
     align-items: center;
     flex-direction: column;
     width: 1440px;
+    position: relative;
 }
 
 .w-100 {
@@ -38,7 +39,7 @@ header {
     margin-right: 30px;
     display: inline;
     border: none;
-  }
+}
 
 .menu > li:last-of-type {
     margin-right: 50px;
@@ -71,9 +72,6 @@ header {
     border: 3px solid #FFFFFF;
     height: max-content;
     width: max-content;
-    position: absolute;
-    top: 180px;
-    left: 460px;
     padding: 33px 30px 29px 30px;
     gap: 16px;
     display: flex;
@@ -128,9 +126,6 @@ footer {
     border-radius: 30px;
     padding: 20px 38px;
     cursor: pointer;
-    position: absolute;
-    top: 560px;
-    left: 510px;
   }
   
   .form-row button:hover {
@@ -144,4 +139,18 @@ footer {
   .a-inline {
     text-decoration: none;
   }
-  
+
+  .pos {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    top: 180px;
+    left: 90px;
+  }
+
+  .back {
+    display: flex;
+    flex-direction: column;
+  }
