@@ -58,7 +58,9 @@ header {
     color: #FEB700;
     font-size: 50px;
     height: 201px;
-    padding: 30px 315px 114px 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .forms-square {
